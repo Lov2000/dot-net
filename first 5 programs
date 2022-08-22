@@ -1,0 +1,78 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+//namespace ConsoleApplication1
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//           //PROGRAM 1 Console.WriteLine("Love");
+
+//          /* PROGRAM 2
+//            int i = 1;
+//            object o = i;
+//            Console.WriteLine(o.ToString());
+//            int j = (int)o;
+//            Console.WriteLine(j.ToString());
+
+//            Console.Read(); */
+        
+        
+        
+        
+//        }
+//    }
+//}
+/* program 4
+
+namespace  IDemo
+{
+    public class MyClass1{
+        public const double PIX=2.1415;
+    }
+    public class MyClass
+    {
+        public readonly double PI;
+        public MyClass()
+        {
+            PI=3.14159;
+        }
+    }
+    public class Car
+    {
+        public static int NumberOfWheels =4;
+    }
+    public class Car1:MyClass1
+    {
+        public static void Main()
+        {
+            int i=Car.NumberOfWheels;
+
+            Console.WriteLine(i);
+            MyClass mc=new MyClass();
+            Console.WriteLine(mc.PI);
+            Console.WriteLine(PIX);
+            Console.Read();
+        }
+    }
+}
+*/
+
+
+namespace LiteralsEx
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 3;
+            float y = 4.5f;
+            Console.WriteLine("The result is {0}", x * y);
+            Console.Read();
+        }
+    }
+
+}
